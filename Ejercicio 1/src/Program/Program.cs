@@ -9,8 +9,9 @@ namespace SRP
         {
             Libro libro1 = new Libro("Design Patterns","Erich Gamma & Others","001-034");
             Libro libro2 = new Libro("Pro C#","Troelsen","001-035");
-            libro1.AlmacenarLibro("A","7");
-            libro2.AlmacenarLibro("B","3");
+            Biblioteca BibliotecaUCU = new Biblioteca("Biblioteca de la UCU");
+            BibliotecaUCU.AlmacenarLibro(libro1,"A","7");
+            BibliotecaUCU.AlmacenarLibro(libro2,"B","3");
 
         }
     }
