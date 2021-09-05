@@ -48,6 +48,7 @@ namespace Library
 
             return stringBuilder.ToString();
         }
-
+        /* Esta clase sufre de un exceso de responsabilidades (una falla de SRP) que limita y dificulta sus tareas y mantenimiento. La clase debería solo tener la responsabilidad de
+        guardar la cita, no también tener que tomar la data de cada paciente y doctor y ademas checkear que estos datos son validos*/
     }
 }
