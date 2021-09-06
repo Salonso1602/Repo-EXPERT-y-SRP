@@ -26,3 +26,6 @@ namespace SRP
 
     }
 }
+
+/* En este caso la clase libro sufre de un exceso de responsabilidades al tener que no solo registrar los libros y su información, sino que también
+donde se guardan, tarea que debería ser delegada a otra clase */
